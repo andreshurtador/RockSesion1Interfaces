@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             hobbies += " comer mucho ";
         }
         if (dormir.isChecked()) {
-            hobbies += " dormir  ";
+            hobbies += " dormir poco  ";
         }
         if (bailar.isChecked()) {
             hobbies += " bailar  ";
