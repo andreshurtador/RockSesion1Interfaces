@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RockSesion1Interfaces</string>
+    <string name="registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="registrar">Registrar</string>
+    <string name="informacion">Informacion</string>
+    <string name="correo">Correo</string>
+    <string name="numero">Numero</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Masculino">Masculino</string>
+    <string name="cine">Cine</string>
+    <string name="dormir">Dormir</string>
+    <string name="comer">Comer</string>
+    <string name="bailar">Bailar</string>
+    <string name="ciudad">Ciudad</string>
+
+
+    <string-array name="ciudades">
+        <item>Medallo</item>
+        <item>Sabaneta</item>
+        <item>Itagui</item>
+        <item>Caldas</item>
+    </string-array>
+
+</resources>

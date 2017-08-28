@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.therock.rocksesion1interfaces.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/darkorange"
+            android:gravity="center_horizontal"
+            android:text="@string/registro"
+            android:textColor="@color/chocolate"
+            android:textSize="25sp"
+            android:textStyle="italic|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/aqua"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="15dp"
+                android:text="@string/nombre"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/eNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/nombre"
+                android:inputType="textPersonName"
+                android:textColor="@color/brown" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azure"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="15dp"
+                android:text="@string/apellido"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/eApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/apellido"
+                android:textColor="@color/brown" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azure"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="15dp"
+                android:text="@string/correo"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/eCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/correo"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/brown" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azure"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="15dp"
+                android:text="@string/numero"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/eNumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/numero"
+                android:inputType="number"
+                android:textColor="@color/brown" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rFemenino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Femenino" />
+
+            <RadioButton
+                android:id="@+id/rMasculino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/Masculino" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azure"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="15dp"
+                android:text="@string/ciudad"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+
+            <Spinner
+                android:id="@+id/sCiudades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cCine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cine" />
+
+            <CheckBox
+                android:id="@+id/cDormir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dormir" />
+
+            <CheckBox
+                android:id="@+id/cComer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/comer" />
+
+            <CheckBox
+                android:id="@+id/cBailar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bailar" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/brown"
+                android:onClick="onClick"
+                android:text="@string/registrar"
+                android:textAllCaps="false"
+                android:textColor="@color/bisque" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tInformacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="15dp"
+            android:text="@string/informacion"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</ScrollView>
